@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "remote": {
+    "https://code4fukui.github.io/Base128/Base128.js": "7fffd3c038e9ff971de8758b5d9a3542d28d7a552a185b257df21887d6c7465d",
+    "https://taisukef.github.io/PNGEncoder/encodePNG.js": "6a56a1c7dbac545022476864c90515311666607d453402bdcb7b7fe071229599",
+    "https://taisukef.github.io/pngjs/PNG.js": "710e0ff32d57fd38ed7916f7bf3e1fc9b5f36ec3cc5a2460140ece5aa1ad43fd",
+    "https://taisukef.github.io/pngjs/PNGReader.js": "50e866b8c1d19b66373409ff86a7f35d13d5a843dd3b200f53a1cde237413d09",
+    "https://taisukef.github.io/pngjs/decodePNG.js": "bbb72390e80dacf1453710a623ff75820d359302d30e23256ffe24196c60b34b",
+    "https://taisukef.github.io/zlib.js/es/crc32.js": "16a6b6cca92ff88825134703cfd86c1b5fbf1a0ae273178983f8821a1105739d",
+    "https://taisukef.github.io/zlib.js/es/deflate.js": "6a5cb2cdec87c175cb8e9cab7961a21c02cb3ecf5ce07cbd3dfb1bf77f67f647",
+    "https://taisukef.github.io/zlib.js/es/inflate.js": "1aeddaf59ebaaef803b1f89623d2cfe5b6e9d88426427dff98c0c8bc65df2a2d"
+  }
+}
