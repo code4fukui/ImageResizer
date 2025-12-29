@@ -1,6 +1,4 @@
-import { init, resize } from "./pkg/squoosh_resize.js";
-
-await init();
+import { ImageResizer } from "./ImageResizer.js";
 
 const w = 100;
 const h = 100;
@@ -18,9 +16,5 @@ for (let i = 0; i < h; i++) {
 const w2 = 32;
 const h2 = 32;
 
-const typ_idx = 0;
-const premultiply = 1;
-const colorspc = false;
-const imgdata2 = resize(imgdata, w, h, w2, h2, typ_idx, premultiply, colorspc);
+const imgdata2 = ImageResizer.resize({ data: imgdata, width: w, height: h }, w2, h2);
 console.log(imgdata2);
-
