@@ -1,6 +1,8 @@
 # ImageResizer
 
-A image resizer with WebAssembly
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+A image resizer with WebAssembly.
 
 ## Usage
 
