@@ -1,10 +1,8 @@
 # ImageResizer
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+WebAssemblyによる画像リサイズツール。
 
-A image resizer with WebAssembly.
-
-## Usage
+## 使い方
 
 ```js
 import { ImageResizer } from "https://code4fukui.github.io/ImageResizer/ImageResizer.js";
@@ -13,7 +11,7 @@ const imgdata2 = ImageResizer.resize(imgdata, w2);
 console.log(imgdata2);
 ```
 
-## Spec
+## 仕様
 
 ```js
 class ImageResizer {
@@ -28,17 +26,17 @@ class ImageResizer {
 - `premultiply` bool
 - `color_space_conversion` bool
 
-## How to Build
+## ビルド方法
 
-with [bin2js](https://github.com/code4fukui/bin2js)
+[bin2js](https://github.com/code4fukui/bin2js) を使用:
 ```sh
 deno -A https://code4fukui.github.io/bin2js/bin2js.js squoosh_resize_bg.wasm
 ```
 
-## Reference
+## 参考
 
-Forked from Resize of [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh/)
+[GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh/) の Resize からフォークしました。
 
-- Source: <https://github.com/PistonDevelopers/resize>
-- Version: v0.3.0
-- License: MIT
+- ソース: <https://github.com/PistonDevelopers/resize>
+- バージョン: v0.3.0
+- ライセンス: MIT
